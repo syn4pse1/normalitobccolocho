@@ -1,0 +1,20 @@
+{
+  "name": "telegram-proxy-render",
+  "version": "1.0.0",
+  "description": "Proxy y polling para Telegram con redirección automática",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
